@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Wikipedia Test" verbose="3" parallel="tests">
+<test name="Wiki in FF">
+<parameter name="browser" value="FF"></parameter>
+<classes>
+<class name="com.selenium.wikiTestNG" />
+</classes>
+</test>
+<test name="Wiki in Chrome">
+<parameter name="browser" value="Chrome"></parameter>
+<classes>
+<class name="com.selenium.wikiTestNG" />
+</classes>
+</test>
+</suite>

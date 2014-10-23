@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="DISHMail Test" verbose="3" parallel="tests">
+<test name="DISH in FF">
+<parameter name="browser" value="FF"></parameter>
+<classes>
+<class name="com.selenium.dishtestPageObject" />
+</classes>
+</test>
+<test name="DISH in Chrome">
+<parameter name="browser" value="Chrome"></parameter>
+<classes>
+<class name="com.selenium.dishtestPageObject" />
+</classes>
+</test>
+</suite>

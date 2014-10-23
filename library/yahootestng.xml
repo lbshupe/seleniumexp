@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Yahoo Test" verbose="3" parallel="tests">
+<test name="Yahoo in FF">
+<parameter name="browser" value="FF"></parameter>
+<classes>
+<class name="com.selenium.YahooTest" />
+</classes>
+</test>
+<test name="Yahoo in Chrome">
+<parameter name="browser" value="Chrome"></parameter>
+<classes>
+<class name="com.selenium.YahooTest" />
+</classes>
+</test>
+</suite>
